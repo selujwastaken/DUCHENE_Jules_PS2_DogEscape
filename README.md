@@ -1,2 +1,2 @@
-# PS2_DogEscape
-
+# PS2
+A dog laboratory escape game
