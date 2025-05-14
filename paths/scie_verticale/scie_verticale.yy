@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"scie_verticale",
+  "closed":false,
+  "kind":0,
+  "name":"scie_verticale",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":150.0,"x":0.0,"y":0.0,},
+    {"speed":150.0,"x":0.0,"y":400.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

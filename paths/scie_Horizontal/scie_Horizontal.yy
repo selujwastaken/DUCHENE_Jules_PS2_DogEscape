@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"scie_Horizontal",
+  "closed":false,
+  "kind":0,
+  "name":"scie_Horizontal",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":150.0,"x":0.0,"y":0.0,},
+    {"speed":150.0,"x":400.0,"y":0.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
