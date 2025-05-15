@@ -62,7 +62,7 @@
     },
     "name":"S_Anim_Chara_idle",
     "playback":1,
-    "playbackSpeed":0.025,
+    "playbackSpeed":0.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

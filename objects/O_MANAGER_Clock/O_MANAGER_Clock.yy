@@ -30,7 +30,6 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"Timer","filters":[],"listItems":[],"multiselect":false,"name":"Timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"Progress","filters":[],"listItems":[],"multiselect":false,"name":"Progress","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"Chrono_Visible","filters":[],"listItems":[],"multiselect":false,"name":"Chrono_Visible","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"Pos_x","filters":[],"listItems":[],"multiselect":false,"name":"Pos_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1540","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"Pos_y","filters":[],"listItems":[],"multiselect":false,"name":"Pos_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"scale","filters":[],"listItems":[],"multiselect":false,"name":"scale","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},

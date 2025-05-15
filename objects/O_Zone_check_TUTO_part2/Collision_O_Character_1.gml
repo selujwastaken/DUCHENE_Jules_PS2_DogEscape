@@ -31,4 +31,12 @@ if(O_Character_1.OSFound == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "yscale" "11"
 	with(O_TutorialTp_part2) {
 	image_xscale = 2;image_yscale = 11;
-	}}
+	}
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2D932AC9
+	/// @DnDParent : 44F7F20A
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "O_Character_1.OSFound"
+	O_Character_1.OSFound = false;}

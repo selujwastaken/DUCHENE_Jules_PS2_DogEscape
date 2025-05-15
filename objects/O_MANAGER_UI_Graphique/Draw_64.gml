@@ -1,22 +1,11 @@
-/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
-/// @DnDVersion : 1
-/// @DnDHash : 1E85EB9F
-/// @DnDArgument : "x" "20"
-/// @DnDArgument : "y" "450"
-/// @DnDArgument : "xscale" "2"
-/// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""JUMP: ""
-/// @DnDArgument : "text" "O_Character_1.Energy"
-draw_text_transformed(20, 450, string("JUMP: ") + string(O_Character_1.Energy), 2, 2, 0);
-
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
 /// @DnDHash : 0905F553
 /// @DnDArgument : "xscale" "0.8"
 /// @DnDArgument : "yscale" "0.8"
-/// @DnDArgument : "sprite" "Fond_Main"
-/// @DnDSaveInfo : "sprite" "Fond_Main"
-draw_sprite_ext(Fond_Main, 0, 0, 0, 0.8, 0.8, 0, $FFFFFF & $ffffff, 1);
+/// @DnDArgument : "sprite" "S_Fond_noir_stamina"
+/// @DnDSaveInfo : "sprite" "S_Fond_noir_stamina"
+draw_sprite_ext(S_Fond_noir_stamina, 0, 0, 0, 0.8, 0.8, 0, $FFFFFF & $ffffff, 1);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
@@ -26,9 +15,9 @@ draw_sprite_ext(Fond_Main, 0, 0, 0, 0.8, 0.8, 0, $FFFFFF & $ffffff, 1);
 /// @DnDArgument : "xscale" "2.5"
 /// @DnDArgument : "yscale" "2.5"
 /// @DnDArgument : "rot" "O_Character_1.Stamina_2"
-/// @DnDArgument : "sprite" "Sprite27_1"
-/// @DnDSaveInfo : "sprite" "Sprite27_1"
-draw_sprite_ext(Sprite27_1, 0, 0+65, 0+80, 2.5, 2.5, O_Character_1.Stamina_2, $FFFFFF & $ffffff, 1);
+/// @DnDArgument : "sprite" "S_Stamina"
+/// @DnDSaveInfo : "sprite" "S_Stamina"
+draw_sprite_ext(S_Stamina, 0, 0+65, 0+80, 2.5, 2.5, O_Character_1.Stamina_2, $FFFFFF & $ffffff, 1);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
@@ -64,9 +53,9 @@ if(O_Character_1.OSFound == 1){	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3F0E84E4
-/// @DnDArgument : "var" "O_MANAGER_Chances.Chance"
+/// @DnDArgument : "var" "global.Chance"
 /// @DnDArgument : "value" "3"
-if(O_MANAGER_Chances.Chance == 3){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+if(global.Chance == 3){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
 	/// @DnDHash : 6A213AF3
 	/// @DnDParent : 3F0E84E4
@@ -79,9 +68,9 @@ if(O_MANAGER_Chances.Chance == 3){	/// @DnDAction : YoYo Games.Drawing.Draw_Sp
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7B12E2BB
-/// @DnDArgument : "var" "O_MANAGER_Chances.Chance"
+/// @DnDArgument : "var" "global.Chance"
 /// @DnDArgument : "value" "2"
-if(O_MANAGER_Chances.Chance == 2){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+if(global.Chance == 2){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
 	/// @DnDHash : 7F2071DC
 	/// @DnDParent : 7B12E2BB
@@ -94,9 +83,9 @@ if(O_MANAGER_Chances.Chance == 2){	/// @DnDAction : YoYo Games.Drawing.Draw_Sp
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7FBF0AFF
-/// @DnDArgument : "var" "O_MANAGER_Chances.Chance"
+/// @DnDArgument : "var" "global.Chance"
 /// @DnDArgument : "value" "1"
-if(O_MANAGER_Chances.Chance == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+if(global.Chance == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
 	/// @DnDHash : 0057E3E8
 	/// @DnDParent : 7FBF0AFF

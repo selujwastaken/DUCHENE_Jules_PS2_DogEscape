@@ -12,9 +12,21 @@ function Sc_Reduce_Chance() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "expr_1" "O_MANAGER_CheckPoint.last_CheckPoint_x"
 	/// @DnDArgument : "expr_2" "O_MANAGER_CheckPoint.last_CheckPoint_y"
-	/// @DnDArgument : "var" "O_MANAGER_Chances.Chance"
+	/// @DnDArgument : "var" "global.Chance"
 	/// @DnDArgument : "var_1" "O_Character_1.x"
 	/// @DnDArgument : "var_2" "O_Character_1.y"
-	O_MANAGER_Chances.Chance += -1;
+	global.Chance += -1;
 	O_Character_1.x = O_MANAGER_CheckPoint.last_CheckPoint_x;
-	O_Character_1.y = O_MANAGER_CheckPoint.last_CheckPoint_y;}
+	O_Character_1.y = O_MANAGER_CheckPoint.last_CheckPoint_y;
+
+	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+	/// @DnDVersion : 1
+	/// @DnDHash : 43C35479
+	/// @DnDInput : 3
+	/// @DnDParent : 35F42696
+	/// @DnDArgument : "msg" "O_Character_1.x"
+	/// @DnDArgument : "msg_1" "O_Character_1.y"
+	/// @DnDArgument : "msg_2" "global.Chance"
+	show_debug_message(string(O_Character_1.x) + @"
+	" + string(O_Character_1.y) + @"
+	" + string(global.Chance));}

@@ -5,7 +5,7 @@
 /// @DnDArgument : "value" "true"
 if(O_Character_1.OSFound == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 36298EF7
+	/// @DnDHash : 66E11910
 	/// @DnDParent : 44F7F20A
 	/// @DnDArgument : "expr" "false"
 	/// @DnDArgument : "var" "O_Character_1.OSFound"

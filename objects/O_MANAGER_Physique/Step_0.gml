@@ -150,3 +150,17 @@ var l2C424DDD_0 = collision_line(x + -33, y + -25, x + -33, y + 25, O_COLLIDER, 
 		/// @DnDParent : 161A24BA
 		/// @DnDArgument : "var" "hspeed"
 		hspeed = 0;}}
+
+/// @DnDAction : YoYo Games.Collisions.If_Collision_Point
+/// @DnDVersion : 1
+/// @DnDHash : 70AA9761
+/// @DnDArgument : "x" "O_Character_1.x"
+/// @DnDArgument : "y" "O_Character_1.y"
+/// @DnDArgument : "obj" "O_COLLIDER"
+/// @DnDSaveInfo : "obj" "O_COLLIDER"
+var l70AA9761_0 = collision_point(O_Character_1.x, O_Character_1.y, O_COLLIDER, true, 1);if((l70AA9761_0)){	/// @DnDAction : YoYo Games.Common.Function_Call
+	/// @DnDVersion : 1
+	/// @DnDHash : 497244BC
+	/// @DnDParent : 70AA9761
+	/// @DnDArgument : "function" "Sc_Reduce_Chance"
+	Sc_Reduce_Chance();}

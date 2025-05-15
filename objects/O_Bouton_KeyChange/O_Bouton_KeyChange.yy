@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Check_3",
-    "path":"sprites/S_Check_3/S_Check_3.yy",
+    "name":"S_Key_Q",
+    "path":"sprites/S_Key_Q/S_Key_Q.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -17,9 +17,9 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 			/// @DnDVersion : 1
 			/// @DnDHash : 18B7785D
 			/// @DnDParent : 4D5487C2
-			/// @DnDArgument : "spriteind" "S_Check_3"
-			/// @DnDSaveInfo : "spriteind" "S_Check_3"
-			sprite_index = S_Check_3;
+			/// @DnDArgument : "spriteind" "S_Key_Q"
+			/// @DnDSaveInfo : "spriteind" "S_Key_Q"
+			sprite_index = S_Key_Q;
 			image_index = 0;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
@@ -46,9 +46,9 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 			/// @DnDVersion : 1
 			/// @DnDHash : 672643D5
 			/// @DnDParent : 7C453258
-			/// @DnDArgument : "spriteind" "S_Check_2"
-			/// @DnDSaveInfo : "spriteind" "S_Check_2"
-			sprite_index = S_Check_2;
+			/// @DnDArgument : "spriteind" "S_Key_A"
+			/// @DnDSaveInfo : "spriteind" "S_Key_A"
+			sprite_index = S_Key_A;
 			image_index = 0;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
