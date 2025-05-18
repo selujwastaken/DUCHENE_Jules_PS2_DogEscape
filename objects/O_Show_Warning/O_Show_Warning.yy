@@ -2,14 +2,14 @@
   "$GMObject":"",
   "%Name":"O_Show_Warning",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"O_Show_Warning",
   "overriddenProperties":[],
   "parent":{
-    "name":"3firstScreens",
-    "path":"folders/Objects/G_Boutons/3firstScreens.yy",
+    "name":"AUTOMATED_OBJECTS",
+    "path":"folders/Objects/AUTOMATED_OBJECTS.yy",
   },
   "parentObjectId":null,
   "persistent":false,

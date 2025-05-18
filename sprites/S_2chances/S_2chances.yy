@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7b213c12-3096-43d1-be05-39697b71c5fd","name":"7b213c12-3096-43d1-be05-39697b71c5fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c2f95b26-7f35-458c-95f4-53538b00897c","name":"c2f95b26-7f35-458c-95f4-53538b00897c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fdd7f0f1-37dc-468c-b26a-f4393d27e49e","blendMode":0,"displayName":"default","isLocked":false,"name":"fdd7f0f1-37dc-468c-b26a-f4393d27e49e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"87c6a207-7f1f-4911-880f-d7e639f628d3","blendMode":0,"displayName":"default","isLocked":false,"name":"87c6a207-7f1f-4911-880f-d7e639f628d3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_2chances",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"UI",
-    "path":"folders/Sprites/Gr_UI/UI.yy",
+    "name":"UI_In_Game",
+    "path":"folders/Sprites/Gr_UI/UI_In_Game.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b213c12-3096-43d1-be05-39697b71c5fd","path":"sprites/S_2chances/S_2chances.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"43e1a317-27db-4c75-b36a-469bcd0384a8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2f95b26-7f35-458c-95f4-53538b00897c","path":"sprites/S_2chances/S_2chances.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a4a97186-0a14-4777-b77d-74118d1a8930","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -9,7 +9,7 @@ if(global.Chance == 3){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDParent : 75DC7CA5
 	/// @DnDArgument : "spriteind" "S_Chien1"
 	/// @DnDSaveInfo : "spriteind" "S_Chien1"
-	sprite_index = S_Chien1;
+	sprite_index = S_DOG_State_1;
 	image_index = 0;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -23,7 +23,7 @@ if(global.Chance == 2){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDParent : 69D8B7D2
 	/// @DnDArgument : "spriteind" "S_Chien2"
 	/// @DnDSaveInfo : "spriteind" "S_Chien2"
-	sprite_index = S_Chien2;
+	sprite_index = S_DOG_State_2;
 	image_index = 0;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -37,7 +37,7 @@ if(global.Chance == 1){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDParent : 0D2EAFD1
 	/// @DnDArgument : "spriteind" "S_Chien3"
 	/// @DnDSaveInfo : "spriteind" "S_Chien3"
-	sprite_index = S_Chien3;
+	sprite_index = S_DOG_State_3;
 	image_index = 0;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -51,5 +51,5 @@ if(global.Chance == 4){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDParent : 0E7C61B4
 	/// @DnDArgument : "spriteind" "S_Chien4"
 	/// @DnDSaveInfo : "spriteind" "S_Chien4"
-	sprite_index = S_Chien4;
+	sprite_index = S_DOG_State_4;
 	image_index = 0;}

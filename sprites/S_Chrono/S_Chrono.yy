@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"49c3253f-af84-4639-8978-69cabd1845c1","name":"49c3253f-af84-4639-8978-69cabd1845c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ccc93c56-2c55-4c73-8cc8-7c3b0b6ab2d9","name":"ccc93c56-2c55-4c73-8cc8-7c3b0b6ab2d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"11ba5ed7-d82f-4da2-a79e-943159d4f6b2","blendMode":0,"displayName":"default","isLocked":false,"name":"11ba5ed7-d82f-4da2-a79e-943159d4f6b2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"292d81c5-386b-44d9-ac41-1034e1604c0e","blendMode":0,"displayName":"default","isLocked":false,"name":"292d81c5-386b-44d9-ac41-1034e1604c0e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Chrono",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"UI",
-    "path":"folders/Sprites/Gr_UI/UI.yy",
+    "name":"UI_In_Game",
+    "path":"folders/Sprites/Gr_UI/UI_In_Game.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49c3253f-af84-4639-8978-69cabd1845c1","path":"sprites/S_Chrono/S_Chrono.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fc88cf82-c879-472d-a1cd-c1deec081a8e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccc93c56-2c55-4c73-8cc8-7c3b0b6ab2d9","path":"sprites/S_Chrono/S_Chrono.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"15eb51e1-ada6-4f0b-9691-0ebaa73cd9a1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

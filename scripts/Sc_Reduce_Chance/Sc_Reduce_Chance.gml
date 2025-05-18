@@ -17,16 +17,4 @@ function Sc_Reduce_Chance() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "var_2" "O_Character_1.y"
 	global.Chance += -1;
 	O_Character_1.x = O_MANAGER_CheckPoint.last_CheckPoint_x;
-	O_Character_1.y = O_MANAGER_CheckPoint.last_CheckPoint_y;
-
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 43C35479
-	/// @DnDInput : 3
-	/// @DnDParent : 35F42696
-	/// @DnDArgument : "msg" "O_Character_1.x"
-	/// @DnDArgument : "msg_1" "O_Character_1.y"
-	/// @DnDArgument : "msg_2" "global.Chance"
-	show_debug_message(string(O_Character_1.x) + @"
-	" + string(O_Character_1.y) + @"
-	" + string(global.Chance));}
+	O_Character_1.y = O_MANAGER_CheckPoint.last_CheckPoint_y;}

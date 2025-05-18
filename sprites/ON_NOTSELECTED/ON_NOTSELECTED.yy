@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Chrono",
-    "path":"folders/Sprites/Gr_UI/UI_Menu/Chrono.yy",
+    "name":"BT_Chrono",
+    "path":"folders/Sprites/Gr_UI/BT_Chrono.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

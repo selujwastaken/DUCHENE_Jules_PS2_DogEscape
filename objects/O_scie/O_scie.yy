@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SCIE",
-    "path":"sprites/SCIE/SCIE.yy",
+    "name":"S_SCIE",
+    "path":"sprites/S_SCIE/S_SCIE.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"FIRESTAND",
-    "path":"sprites/FIRESTAND/FIRESTAND.yy",
+    "name":"S_FIRESTAND",
+    "path":"sprites/S_FIRESTAND/S_FIRESTAND.yy",
   },
   "spriteMaskId":null,
   "visible":true,

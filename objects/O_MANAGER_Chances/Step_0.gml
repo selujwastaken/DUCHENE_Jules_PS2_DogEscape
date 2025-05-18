@@ -14,6 +14,6 @@ if(global.Chance == 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 381CDC77
 	/// @DnDParent : 4B4D5B64
-	/// @DnDArgument : "room" "R_Death"
-	/// @DnDSaveInfo : "room" "R_Death"
-	room_goto(R_Death);}
+	/// @DnDArgument : "room" "R_Menu_Death"
+	/// @DnDSaveInfo : "room" "R_Menu_Death"
+	room_goto(R_Menu_Death);}

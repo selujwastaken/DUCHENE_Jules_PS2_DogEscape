@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 44C73936
-/// @DnDArgument : "msg" "CurrentFrameSpeed"
-show_debug_message(string(CurrentFrameSpeed));
-
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
 /// @DnDHash : 785B7F6D
@@ -272,10 +266,10 @@ var l25D914BA_0;l25D914BA_0 = keyboard_check_pressed(vk_space);if (l25D914BA_0
 			/// @DnDParent : 5D1C48B0
 			/// @DnDArgument : "xpos" "O_Character_1.x"
 			/// @DnDArgument : "ypos" "O_Character_1.y+32"
-			/// @DnDArgument : "objectid" "O_Dust_Jump"
+			/// @DnDArgument : "objectid" "O_Jump_2"
 			/// @DnDArgument : "layer" ""Instances_FX""
-			/// @DnDSaveInfo : "objectid" "O_Dust_Jump"
-			instance_create_layer(O_Character_1.x, O_Character_1.y+32, "Instances_FX", O_Dust_Jump);
+			/// @DnDSaveInfo : "objectid" "O_Jump_2"
+			instance_create_layer(O_Character_1.x, O_Character_1.y+32, "Instances_FX", O_Jump_2);
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1

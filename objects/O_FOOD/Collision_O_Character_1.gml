@@ -11,6 +11,12 @@ instance_destroy();
 /// @DnDArgument : "var" "O_Character_1.Bonus_FrameSpeed"
 O_Character_1.Bonus_FrameSpeed += 0.01;
 
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 1BE7D2F5
+/// @DnDArgument : "code" "global.YA_Croquettes += 1;"
+global.YA_Croquettes += 1;
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 47ACB88E

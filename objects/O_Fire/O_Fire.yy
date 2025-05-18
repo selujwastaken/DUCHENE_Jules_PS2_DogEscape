@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Fire_Type_2",
-    "path":"sprites/S_Fire_Type_2/S_Fire_Type_2.yy",
+    "name":"S_Fire",
+    "path":"sprites/S_Fire/S_Fire.yy",
   },
   "spriteMaskId":null,
   "visible":true,

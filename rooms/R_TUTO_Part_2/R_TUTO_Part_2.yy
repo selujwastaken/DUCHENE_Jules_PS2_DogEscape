@@ -35,7 +35,6 @@
     {"name":"inst_202A22D7","path":"rooms/R_TUTO_Part_2/R_TUTO_Part_2.yy",},
     {"name":"inst_8195933","path":"rooms/R_TUTO_Part_2/R_TUTO_Part_2.yy",},
     {"name":"inst_264E219C","path":"rooms/R_TUTO_Part_2/R_TUTO_Part_2.yy",},
-    {"name":"inst_1B0D4BE4","path":"rooms/R_TUTO_Part_2/R_TUTO_Part_2.yy",},
     {"name":"inst_1F5BC20B","path":"rooms/R_TUTO_Part_2/R_TUTO_Part_2.yy",},
     {"name":"inst_6C76F0E0","path":"rooms/R_TUTO_Part_2/R_TUTO_Part_2.yy",},
     {"name":"inst_2A403BD2","path":"rooms/R_TUTO_Part_2/R_TUTO_Part_2.yy",},
@@ -89,7 +88,6 @@
         {"$GMRInstance":"v2","%Name":"inst_264E219C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_264E219C","objectId":{"name":"O_StandFire","path":"objects/O_StandFire/O_StandFire.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_StandFire","path":"objects/O_StandFire/O_StandFire.yy",},"propertyId":{"name":"FlameDIR","path":"objects/O_StandFire/O_StandFire.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"90",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3120.0,"y":2304.0,},
-        {"$GMRInstance":"v2","%Name":"inst_1B0D4BE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B0D4BE4","objectId":{"name":"O_EWall","path":"objects/O_EWall/O_EWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":3136.0,"y":1888.0,},
       ],"layers":[],"name":"Instances_Traps","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_6F827176","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6F827176","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Tuto_Map_2","path":"sprites/Tuto_Map_2/Tuto_Map_2.yy",},"x":0.0,"y":0.0,},
@@ -123,7 +121,7 @@
   "roomSettings":{
     "Height":2400,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":4800,
   },
   "sequenceId":null,

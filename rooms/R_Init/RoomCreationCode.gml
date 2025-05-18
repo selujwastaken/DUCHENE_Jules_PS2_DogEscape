@@ -1,15 +1,45 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
+/// @DnDHash : 06A4D8C9
+/// @DnDArgument : "var" "TimerMedal"
+global.TimerMedal = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 3A5FD76D
+/// @DnDInput : 2
+/// @DnDArgument : "value" "false"
+/// @DnDArgument : "var" "DO_I_RESET_ROOM"
+/// @DnDArgument : "var_1" "global.room_to_go"
+global.DO_I_RESET_ROOM = false;
+global.room_to_go = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
 /// @DnDHash : 71CBF410
+/// @DnDInput : 6
 /// @DnDArgument : "value" "3"
-/// @DnDArgument : "var" "global.Chance"
+/// @DnDArgument : "value_3" "false"
+/// @DnDArgument : "value_4" "false"
+/// @DnDArgument : "value_5" "false"
+/// @DnDArgument : "var" "Chance"
+/// @DnDArgument : "var_1" "NB_Croquettes"
+/// @DnDArgument : "var_2" "YA_Croquettes"
+/// @DnDArgument : "var_3" "PLAY"
+/// @DnDArgument : "var_4" "TUTO1"
+/// @DnDArgument : "var_5" "TUTO2"
 global.Chance = 3;
+global.NB_Croquettes = 0;
+global.YA_Croquettes = 0;
+global.PLAY = false;
+global.TUTO1 = false;
+global.TUTO2 = false;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 6AE52BCF
 /// @DnDArgument : "value" "false"
-/// @DnDArgument : "var" "global.TimerGamePlay"
+/// @DnDArgument : "var" "TimerGamePlay"
 global.TimerGamePlay = false;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
@@ -25,6 +55,27 @@ global.KeyChange = "Q";
 /// @DnDArgument : "value" "false"
 /// @DnDArgument : "var" "Is_In_QWERTY"
 global.Is_In_QWERTY = false;
+
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 5777B7C4
+randomize();
+
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
+/// @DnDVersion : 1
+/// @DnDHash : 202A4CA9
+/// @DnDArgument : "var" "SNumber"
+/// @DnDArgument : "type" "1"
+/// @DnDArgument : "min" "0000"
+/// @DnDArgument : "max" "9999"
+SNumber = floor(random_range(0000, 9999 + 1));
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 788D55C6
+/// @DnDArgument : "value" "SNumber"
+/// @DnDArgument : "var" "SujetNumber"
+global.SujetNumber = SNumber;
 
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
