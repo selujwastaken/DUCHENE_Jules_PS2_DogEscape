@@ -35,9 +35,9 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 		/// @DnDVersion : 1
 		/// @DnDHash : 4AC09AF1
 		/// @DnDParent : 11322B44
-		/// @DnDArgument : "room" "R_TUTO_Part_1"
-		/// @DnDSaveInfo : "room" "R_TUTO_Part_1"
-		room_goto(R_TUTO_Part_1);}}
+		/// @DnDArgument : "room" "R_TUTO"
+		/// @DnDSaveInfo : "room" "R_TUTO"
+		room_goto(R_TUTO);}}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1

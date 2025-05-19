@@ -14,8 +14,9 @@ O_Character_1.Bonus_FrameSpeed += 0.01;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1BE7D2F5
-/// @DnDArgument : "code" "global.YA_Croquettes += 1;"
+/// @DnDArgument : "code" "global.YA_Croquettes += 1;$(13_10)instance_deactivate_object(self);"
 global.YA_Croquettes += 1;
+instance_deactivate_object(self);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

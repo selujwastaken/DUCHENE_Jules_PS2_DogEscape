@@ -64,5 +64,5 @@ draw_text_transformed(960, 540+64, string("Ame sensibles s'abstenir.") + "", 2, 
 /// @DnDArgument : "y" "540+64*2"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""Malgre que ce jeu soit cartoonesque, il peut etre choquant.""
-draw_text_transformed(960, 540+64*2, string("Malgre que ce jeu soit cartoonesque, il peut etre choquant.") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Bien que ce jeu soit cartoonesque, il peut etre choquant.""
+draw_text_transformed(960, 540+64*2, string("Bien que ce jeu soit cartoonesque, il peut etre choquant.") + "", 2, 2, 0);

@@ -1,18 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 06A4D8C9
-/// @DnDArgument : "var" "TimerMedal"
-global.TimerMedal = 0;
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 3A5FD76D
 /// @DnDInput : 2
-/// @DnDArgument : "value" "false"
-/// @DnDArgument : "var" "DO_I_RESET_ROOM"
-/// @DnDArgument : "var_1" "global.room_to_go"
+/// @DnDArgument : "value_1" "false"
+/// @DnDArgument : "var" "TimerMedal"
+/// @DnDArgument : "var_1" "DO_I_RESET_ROOM"
+global.TimerMedal = 0;
 global.DO_I_RESET_ROOM = false;
-global.room_to_go = 0;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
@@ -52,9 +46,13 @@ global.KeyChange = "Q";
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 26B39EB2
+/// @DnDInput : 2
 /// @DnDArgument : "value" "false"
+/// @DnDArgument : "value_1" "false"
 /// @DnDArgument : "var" "Is_In_QWERTY"
+/// @DnDArgument : "var_1" "restart"
 global.Is_In_QWERTY = false;
+global.restart = false;
 
 /// @DnDAction : YoYo Games.Random.Randomize
 /// @DnDVersion : 1

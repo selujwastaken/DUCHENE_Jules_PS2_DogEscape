@@ -23,13 +23,13 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 		/// @DnDParent : 11322B44
 		/// @DnDArgument : "expr" "true"
 		/// @DnDArgument : "expr_1" "false"
-		/// @DnDArgument : "expr_2" "false"
+		/// @DnDArgument : "expr_2" "true"
 		/// @DnDArgument : "var" "global.PLAY"
 		/// @DnDArgument : "var_1" "global.TUTO1"
-		/// @DnDArgument : "var_2" "global.TUTO2"
+		/// @DnDArgument : "var_2" "global.restart"
 		global.PLAY = true;
 		global.TUTO1 = false;
-		global.TUTO2 = false;
+		global.restart = true;
 	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1

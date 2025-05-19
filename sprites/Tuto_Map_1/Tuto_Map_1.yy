@@ -5,21 +5,21 @@
   "bbox_bottom":2399,
   "bbox_left":0,
   "bbox_right":4799,
-  "bbox_top":992,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0e75221a-695c-46a9-b03a-8d62d2c23138","name":"0e75221a-695c-46a9-b03a-8d62d2c23138","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b99dea0d-14fc-455d-8a8b-d6611163c73e","name":"b99dea0d-14fc-455d-8a8b-d6611163c73e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":2400,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f859b702-9230-40ab-9ee2-88a013ffd2d4","blendMode":0,"displayName":"default","isLocked":false,"name":"f859b702-9230-40ab-9ee2-88a013ffd2d4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"32655816-251e-40f3-b680-ec5ec847d0e2","blendMode":0,"displayName":"default","isLocked":false,"name":"32655816-251e-40f3-b680-ec5ec847d0e2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Tuto_Map_1",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e75221a-695c-46a9-b03a-8d62d2c23138","path":"sprites/Tuto_Map_1/Tuto_Map_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6cb83ffb-abab-4515-8f36-56d48657fbfc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b99dea0d-14fc-455d-8a8b-d6611163c73e","path":"sprites/Tuto_Map_1/Tuto_Map_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3c5203d6-810f-4f36-936c-623b32d337d9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

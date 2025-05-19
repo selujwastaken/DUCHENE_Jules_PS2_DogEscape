@@ -41,5 +41,6 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 			/// @DnDParent : 6A67BAA3
 			/// @DnDArgument : "xpos" "1248"
 			/// @DnDArgument : "objectid" "O_Blink"
+			/// @DnDArgument : "layer" ""Ins_Other""
 			/// @DnDSaveInfo : "objectid" "O_Blink"
-			instance_create_layer(1248, 0, "Instances", O_Blink);}}}
+			instance_create_layer(1248, 0, "Ins_Other", O_Blink);}}}
