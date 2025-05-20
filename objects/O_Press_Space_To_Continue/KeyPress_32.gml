@@ -9,5 +9,5 @@ audio_play_sound(Sound1, 0, 0, 0.5, undefined, 0.5);
 
 /// @DnDAction : YoYo Games.Rooms.Next_Room
 /// @DnDVersion : 1
-/// @DnDHash : 06231290
+/// @DnDHash : 23C957B2
 room_goto_next();

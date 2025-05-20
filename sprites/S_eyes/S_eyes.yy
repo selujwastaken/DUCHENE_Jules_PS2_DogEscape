@@ -28,7 +28,7 @@
   "origin":9,
   "parent":{
     "name":"UI_Character",
-    "path":"folders/Sprites/Gr_UI/UI_Character.yy",
+    "path":"folders/Sprites/Gr_UI/BT_Tuto/UI_Character.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
