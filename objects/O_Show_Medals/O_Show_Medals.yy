@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_FOOD",
+  "%Name":"O_Show_Medals",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Character_1","path":"objects/O_Character_1/O_Character_1.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_FOOD",
+  "name":"O_Show_Medals",
   "overriddenProperties":[],
   "parent":{
-    "name":"G_Props",
-    "path":"folders/Objects/G_Props.yy",
+    "name":"AUTOMATED_OBJECTS",
+    "path":"folders/Objects/AUTOMATED_OBJECTS.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"S_FOOD_2_32",
-    "path":"sprites/S_FOOD_2_32/S_FOOD_2_32.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

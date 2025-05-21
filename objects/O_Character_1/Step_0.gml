@@ -38,10 +38,9 @@ var l785B7F6D_0;l785B7F6D_0 = keyboard_check(vk_shift);if (l785B7F6D_0){	///
 			/// @DnDHash : 491932BE
 			/// @DnDInput : 2
 			/// @DnDParent : 51DED448
-			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "Stamina"
 			/// @DnDArgument : "var_1" "CurrentSpeed"
-			Stamina += 0;
+			Stamina = 0;
 			CurrentSpeed = 0;}}}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
@@ -49,7 +48,14 @@ var l785B7F6D_0;l785B7F6D_0 = keyboard_check(vk_shift);if (l785B7F6D_0){	///
 /// @DnDHash : 3B9B83DC
 /// @DnDArgument : "key" "vk_shift"
 /// @DnDArgument : "not" "1"
-var l3B9B83DC_0;l3B9B83DC_0 = keyboard_check(vk_shift);if (!l3B9B83DC_0){	/// @DnDAction : YoYo Games.Common.If_Variable
+var l3B9B83DC_0;l3B9B83DC_0 = keyboard_check(vk_shift);if (!l3B9B83DC_0){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 25A596B4
+	/// @DnDParent : 3B9B83DC
+	/// @DnDArgument : "var" "CurrentSpeed"
+	CurrentSpeed = 0;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 19A941C2
 	/// @DnDParent : 3B9B83DC
@@ -75,15 +81,7 @@ var l3B9B83DC_0;l3B9B83DC_0 = keyboard_check(vk_shift);if (!l3B9B83DC_0){	//
 		/// @DnDArgument : "expr" "Stamina_Gain"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "Stamina"
-		Stamina += Stamina_Gain;}
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 25A596B4
-	/// @DnDParent : 3B9B83DC
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "CurrentSpeed"
-	CurrentSpeed += 0;}
+		Stamina += Stamina_Gain;}}
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -246,12 +244,6 @@ var l5F7C7EEF_0;l5F7C7EEF_0 = keyboard_check(ord(global.KeyChange));if (!l5F7C
 		/// @DnDSaveInfo : "spriteind" "S_Dog_Idle"
 		sprite_index = S_Dog_Idle;
 		image_index += 2;}}
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 0B6CD017
-/// @DnDArgument : "msg" "O_Dog_Tail.image_index"
-show_debug_message(string(O_Dog_Tail.image_index));
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
