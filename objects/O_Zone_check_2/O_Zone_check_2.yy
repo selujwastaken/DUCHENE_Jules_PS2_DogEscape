@@ -37,5 +37,5 @@
     "path":"sprites/S_Zone_Check/S_Zone_Check.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

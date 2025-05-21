@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Dog_Medals",
-    "path":"folders/Sprites/Gr_UI/BT_Tuto/UI_Character/Dog_Medals.yy",
+    "path":"folders/Sprites/Gr_UI/UI_Character/Dog_Medals.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
