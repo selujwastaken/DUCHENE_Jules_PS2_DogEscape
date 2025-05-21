@@ -15,12 +15,12 @@ if(O_Character_1.OSFound == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 0B0CD5C0
 	/// @DnDParent : 44F7F20A
-	/// @DnDArgument : "xpos" "4736"
-	/// @DnDArgument : "ypos" "1408"
+	/// @DnDArgument : "xpos" "2016"
+	/// @DnDArgument : "ypos" "896"
 	/// @DnDArgument : "objectid" "O_TutorialTp_end"
 	/// @DnDArgument : "layer" ""Instances_Zones""
 	/// @DnDSaveInfo : "objectid" "O_TutorialTp_end"
-	instance_create_layer(4736, 1408, "Instances_Zones", O_TutorialTp_end);
+	instance_create_layer(2016, 896, "Instances_Zones", O_TutorialTp_end);
 
 	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
 	/// @DnDVersion : 1
@@ -28,9 +28,9 @@ if(O_Character_1.OSFound == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDApplyTo : {O_TutorialTp_end}
 	/// @DnDParent : 44F7F20A
 	/// @DnDArgument : "xscale" "2"
-	/// @DnDArgument : "yscale" "11"
+	/// @DnDArgument : "yscale" "13"
 	with(O_TutorialTp_end) {
-	image_xscale = 2;image_yscale = 11;
+	image_xscale = 2;image_yscale = 13;
 	}
 
 	/// @DnDAction : YoYo Games.Common.Variable

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_OS",
-    "path":"sprites/S_OS/S_OS.yy",
+    "name":"S_OS_32",
+    "path":"sprites/S_OS_32/S_OS_32.yy",
   },
   "spriteMaskId":null,
   "visible":true,
