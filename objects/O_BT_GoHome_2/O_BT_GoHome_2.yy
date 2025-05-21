@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BIGGoHomeOFF",
-    "path":"sprites/BIGGoHomeOFF/BIGGoHomeOFF.yy",
+    "name":"S_BIG_GoHomeOFF",
+    "path":"sprites/S_BIG_GoHomeOFF/S_BIG_GoHomeOFF.yy",
   },
   "spriteMaskId":null,
   "visible":true,

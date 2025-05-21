@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"KEY_A_OFF",
-    "path":"sprites/KEY_A_OFF/KEY_A_OFF.yy",
+    "name":"S_KEY_A_OFF",
+    "path":"sprites/S_KEY_A_OFF/S_KEY_A_OFF.yy",
   },
   "spriteMaskId":null,
   "visible":true,

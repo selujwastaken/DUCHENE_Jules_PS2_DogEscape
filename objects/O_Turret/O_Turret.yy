@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_E_Turret",
-    "path":"sprites/S_E_Turret/S_E_Turret.yy",
+    "name":"S_Turret",
+    "path":"sprites/S_Turret/S_Turret.yy",
   },
   "spriteMaskId":null,
   "visible":true,

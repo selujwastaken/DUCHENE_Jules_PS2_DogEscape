@@ -102,4 +102,4 @@ if(global.Chance == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transf
 /// @DnDArgument : "yscale" "0.8"
 /// @DnDArgument : "sprite" "UI_Dirt_MAIN"
 /// @DnDSaveInfo : "sprite" "UI_Dirt_MAIN"
-draw_sprite_ext(UI_Dirt_MAIN, 0, 0, 0, 0.8, 0.8, 0, $FFFFFF & $ffffff, 1);
+draw_sprite_ext(S_Dirt, 0, 0, 0, 0.8, 0.8, 0, $FFFFFF & $ffffff, 1);

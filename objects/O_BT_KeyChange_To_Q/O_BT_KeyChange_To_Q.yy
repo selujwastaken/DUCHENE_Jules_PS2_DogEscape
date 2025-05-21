@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"KEY_Q_OFF",
-    "path":"sprites/KEY_Q_OFF/KEY_Q_OFF.yy",
+    "name":"S_KEY_Q_OFF",
+    "path":"sprites/S_KEY_Q_OFF/S_KEY_Q_OFF.yy",
   },
   "spriteMaskId":null,
   "visible":true,

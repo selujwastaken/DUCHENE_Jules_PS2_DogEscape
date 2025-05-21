@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Lumiere",
-    "path":"sprites/Lumiere/Lumiere.yy",
+    "name":"S_Lumiere",
+    "path":"sprites/S_Lumiere/S_Lumiere.yy",
   },
   "spriteMaskId":null,
   "visible":true,

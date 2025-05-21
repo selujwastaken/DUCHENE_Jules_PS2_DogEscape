@@ -378,9 +378,9 @@ if(OSFound == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5E914F2F
 	/// @DnDParent : 0799C397
-	/// @DnDArgument : "expr" "0.03"
+	/// @DnDArgument : "expr" "0.08"
 	/// @DnDArgument : "var" "Min_FrameSpeed"
-	Min_FrameSpeed = 0.03;}
+	Min_FrameSpeed = 0.08;}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1

@@ -35,7 +35,7 @@ var l7E18BCAD_0 = collision_ellipse(x + -Range, y + -Range, x + Range, y + Range
 	/// @DnDArgument : "value" "true"
 	if(Fire == true){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
-		/// @DnDHash : 4DFE6C72
+		/// @DnDHash : 5343D8D0
 		/// @DnDParent : 32211592
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos_relative" "1"
@@ -43,6 +43,17 @@ var l7E18BCAD_0 = collision_ellipse(x + -Range, y + -Range, x + Range, y + Range
 		/// @DnDArgument : "layer" ""Instances_Traps""
 		/// @DnDSaveInfo : "objectid" "O_Bullet"
 		instance_create_layer(x + 0, y + 0, "Instances_Traps", O_Bullet);
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 4DFE6C72
+		/// @DnDParent : 32211592
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "O_Flash"
+		/// @DnDArgument : "layer" ""Instances_Traps""
+		/// @DnDSaveInfo : "objectid" "O_Flash"
+		instance_create_layer(x + 0, y + 0, "Instances_Traps", O_Flash);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

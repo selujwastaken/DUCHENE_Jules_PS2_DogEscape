@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Free
 /// @DnDVersion : 1
 /// @DnDHash : 741DE941
-/// @DnDArgument : "direction" "O_Turret.image_angle"
-direction = O_Turret.image_angle;
+/// @DnDArgument : "direction" "point_direction(x, y, O_Character_1.x ,O_Character_1.y)"
+direction = point_direction(x, y, O_Character_1.x ,O_Character_1.y);
 
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1

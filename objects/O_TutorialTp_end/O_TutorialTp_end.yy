@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"TPCOLLIDERTUTO",
-    "path":"sprites/TPCOLLIDERTUTO/TPCOLLIDERTUTO.yy",
+    "name":"S_EndTuto",
+    "path":"sprites/S_EndTuto/S_EndTuto.yy",
   },
   "spriteMaskId":null,
   "visible":true,

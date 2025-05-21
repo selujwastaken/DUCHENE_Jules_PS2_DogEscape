@@ -6,10 +6,10 @@ instance_destroy();
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6335B3AD
-/// @DnDArgument : "expr" "0.01"
+/// @DnDArgument : "expr" "0.02"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "O_Character_1.Bonus_FrameSpeed"
-O_Character_1.Bonus_FrameSpeed += 0.01;
+O_Character_1.Bonus_FrameSpeed += 0.02;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1

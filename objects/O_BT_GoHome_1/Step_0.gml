@@ -9,7 +9,7 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 	/// @DnDParent : 34762E58
 	/// @DnDArgument : "spriteind" "GoHomeON"
 	/// @DnDSaveInfo : "spriteind" "GoHomeON"
-	sprite_index = GoHomeON;
+	sprite_index = S_GoHomeON;
 	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Pressed
@@ -33,5 +33,5 @@ else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDParent : 37A8E134
 	/// @DnDArgument : "spriteind" "GoHomeOFF"
 	/// @DnDSaveInfo : "spriteind" "GoHomeOFF"
-	sprite_index = GoHomeOFF;
+	sprite_index = S_GoHomeOFF;
 	image_index = 0;}

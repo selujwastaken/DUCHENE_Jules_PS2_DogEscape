@@ -41,7 +41,7 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 	/// @DnDParent : 26F95D9E
 	/// @DnDArgument : "spriteind" "OFF_SELECTED"
 	/// @DnDSaveInfo : "spriteind" "OFF_SELECTED"
-	sprite_index = OFF_SELECTED;
+	sprite_index = S_OFF_SELECTED;
 	image_index = 0;}
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -53,5 +53,5 @@ else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDParent : 38CC1B66
 	/// @DnDArgument : "spriteind" "OFF_NOTSELECTED"
 	/// @DnDSaveInfo : "spriteind" "OFF_NOTSELECTED"
-	sprite_index = OFF_NOTSELECTED;
+	sprite_index = S_OFF_NOTSELECTED;
 	image_index = 0;}
