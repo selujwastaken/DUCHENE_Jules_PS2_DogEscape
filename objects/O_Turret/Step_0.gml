@@ -59,6 +59,17 @@ var l7E18BCAD_0 = collision_ellipse(x + -Range, y + -Range, x + Range, y + Range
 		/// @DnDSaveInfo : "objectid" "O_Flash"
 		instance_create_layer(x+cos(RAD)*96, y-sin(RAD)*96, "Instances_Traps", O_Flash);
 	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 4DFE6C72
+		/// @DnDParent : 32211592
+		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "objectid" "O_Flash"
+		/// @DnDArgument : "layer" ""Instances_Traps""
+		/// @DnDSaveInfo : "objectid" "O_Flash"
+		instance_create_layer(x + 0, y + 0, "Instances_Traps", O_Flash);
+	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 513F9384
