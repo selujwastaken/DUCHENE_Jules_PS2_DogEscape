@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Silver_medal",
-    "path":"sprites/Silver_medal/Silver_medal.yy",
+    "name":"S_Silver_medal",
+    "path":"sprites/S_Silver_medal/S_Silver_medal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

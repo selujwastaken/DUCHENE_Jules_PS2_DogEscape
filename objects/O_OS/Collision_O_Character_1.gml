@@ -5,7 +5,8 @@
 /// @DnDArgument : "var" "O_Character_1.OSFound"
 O_Character_1.OSFound = true;
 
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 0FAAA282
-instance_destroy();
+/// @DnDHash : 5208D82F
+/// @DnDArgument : "code" "instance_deactivate_object(id);"
+instance_deactivate_object(id);

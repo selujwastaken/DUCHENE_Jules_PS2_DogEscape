@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"PlayOFF",
-    "path":"sprites/PlayOFF/PlayOFF.yy",
+    "name":"S_PlayOFF",
+    "path":"sprites/S_PlayOFF/S_PlayOFF.yy",
   },
   "spriteMaskId":null,
   "visible":true,

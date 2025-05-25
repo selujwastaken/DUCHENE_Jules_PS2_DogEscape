@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Bronze_medal",
-    "path":"sprites/Bronze_medal/Bronze_medal.yy",
+    "name":"S_Bronze_medal",
+    "path":"sprites/S_Bronze_medal/S_Bronze_medal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

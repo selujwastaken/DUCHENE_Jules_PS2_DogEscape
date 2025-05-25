@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"S_DOG_State_1",
   "bboxMode":0,
-  "bbox_bottom":962,
-  "bbox_left":884,
-  "bbox_right":1593,
+  "bbox_bottom":942,
+  "bbox_left":939,
+  "bbox_right":1538,
   "bbox_top":0,
   "collisionKind":5,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d3701ad6-564f-452e-addf-d800c2cf5916","name":"d3701ad6-564f-452e-addf-d800c2cf5916","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8618d826-160a-4008-a42d-2ba419d6d928","name":"8618d826-160a-4008-a42d-2ba419d6d928","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fafe7e65-94e7-457d-b440-c88a18a3673f","blendMode":0,"displayName":"default","isLocked":false,"name":"fafe7e65-94e7-457d-b440-c88a18a3673f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"815f32e1-5eb5-4ec0-b3e9-c2295b2ae77e","blendMode":0,"displayName":"default","isLocked":false,"name":"815f32e1-5eb5-4ec0-b3e9-c2295b2ae77e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_DOG_State_1",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3701ad6-564f-452e-addf-d800c2cf5916","path":"sprites/S_DOG_State_1/S_DOG_State_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"51025566-1f18-4f75-9a02-2334a9dba6e8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8618d826-160a-4008-a42d-2ba419d6d928","path":"sprites/S_DOG_State_1/S_DOG_State_1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c02a0dc8-e5da-4a7c-b268-752cba16acd5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

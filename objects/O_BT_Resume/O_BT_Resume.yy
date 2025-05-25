@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ResumeOFF",
-    "path":"sprites/ResumeOFF/ResumeOFF.yy",
+    "name":"S_ResumeOFF",
+    "path":"sprites/S_ResumeOFF/S_ResumeOFF.yy",
   },
   "spriteMaskId":null,
   "visible":true,

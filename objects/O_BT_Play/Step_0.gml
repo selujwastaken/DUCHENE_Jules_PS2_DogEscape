@@ -7,9 +7,9 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 	/// @DnDVersion : 1
 	/// @DnDHash : 26D73593
 	/// @DnDParent : 2D79FC8A
-	/// @DnDArgument : "spriteind" "PlayON"
-	/// @DnDSaveInfo : "spriteind" "PlayON"
-	sprite_index = PlayON;
+	/// @DnDArgument : "spriteind" "S_PlayON"
+	/// @DnDSaveInfo : "spriteind" "S_PlayON"
+	sprite_index = S_PlayON;
 	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Pressed
@@ -19,17 +19,31 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 	var l11322B44_0;l11322B44_0 = mouse_check_button_pressed(mb_left);if (l11322B44_0){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 698F3C38
-		/// @DnDInput : 3
+		/// @DnDInput : 5
 		/// @DnDParent : 11322B44
 		/// @DnDArgument : "expr" "true"
 		/// @DnDArgument : "expr_1" "false"
 		/// @DnDArgument : "expr_2" "true"
+		/// @DnDArgument : "expr_3" "416"
+		/// @DnDArgument : "expr_4" "416"
 		/// @DnDArgument : "var" "global.PLAY"
-		/// @DnDArgument : "var_1" "global.TUTO1"
+		/// @DnDArgument : "var_1" "global.TUTO"
 		/// @DnDArgument : "var_2" "global.restart"
+		/// @DnDArgument : "var_3" "global.last_CheckPoint_x"
+		/// @DnDArgument : "var_4" "global.last_CheckPoint_y"
 		global.PLAY = true;
-		global.TUTO1 = false;
+		global.TUTO = false;
 		global.restart = true;
+		global.last_CheckPoint_x = 416;
+		global.last_CheckPoint_y = 416;
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 543B3936
+		/// @DnDParent : 11322B44
+		/// @DnDArgument : "soundid" "Bouton"
+		/// @DnDSaveInfo : "soundid" "Bouton"
+		audio_play_sound(Bouton, 0, 0, 1.0, undefined, 1.0);
 	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
@@ -46,7 +60,7 @@ else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 10C6CDD0
 	/// @DnDParent : 2AE01E11
-	/// @DnDArgument : "spriteind" "PlayOFF"
-	/// @DnDSaveInfo : "spriteind" "PlayOFF"
-	sprite_index = PlayOFF;
+	/// @DnDArgument : "spriteind" "S_PlayOFF"
+	/// @DnDSaveInfo : "spriteind" "S_PlayOFF"
+	sprite_index = S_PlayOFF;
 	image_index = 0;}

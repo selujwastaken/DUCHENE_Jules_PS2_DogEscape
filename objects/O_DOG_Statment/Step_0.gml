@@ -25,7 +25,15 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 		/// @DnDArgument : "var" "global.Chance"
 		/// @DnDArgument : "not" "1"
 		/// @DnDArgument : "value" "4"
-		if(!(global.Chance == 4)){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+		if(!(global.Chance == 4)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 2803523D
+			/// @DnDParent : 4E9B1ED3
+			/// @DnDArgument : "soundid" "dogtoy"
+			/// @DnDSaveInfo : "soundid" "dogtoy"
+			audio_play_sound(dogtoy, 0, 0, 1.0, undefined, 1.0);
+		
+			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
 			/// @DnDHash : 6C908867
 			/// @DnDParent : 4E9B1ED3

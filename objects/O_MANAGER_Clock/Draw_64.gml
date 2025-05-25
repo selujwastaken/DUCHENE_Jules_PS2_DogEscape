@@ -8,20 +8,20 @@ if(global.TimerGamePlay == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDHash : 06426126
 	/// @DnDInput : 5
 	/// @DnDParent : 3AC5453F
-	/// @DnDArgument : "expr" "(Timer mod 60)*(100 div 60)"
-	/// @DnDArgument : "expr_1" "(Timer div 60) mod 60"
-	/// @DnDArgument : "expr_2" "Timer div 3600"
-	/// @DnDArgument : "expr_3" "clamp((Timer div 60) / 300, 0, 1)"
+	/// @DnDArgument : "expr" "(global.Timer mod 60)*(100 div 60)"
+	/// @DnDArgument : "expr_1" "(global.Timer div 60) mod 60"
+	/// @DnDArgument : "expr_2" "global.Timer div 3600"
+	/// @DnDArgument : "expr_3" "clamp((global.Timer div 60) / 300, 0, 1)"
 	/// @DnDArgument : "expr_4" "true"
 	/// @DnDArgument : "var" "millisecondes"
 	/// @DnDArgument : "var_1" "secondes"
 	/// @DnDArgument : "var_2" "minutes"
 	/// @DnDArgument : "var_3" "Progress"
 	/// @DnDArgument : "var_4" "global.TimerGamePlay"
-	millisecondes = (Timer mod 60)*(100 div 60);
-	secondes = (Timer div 60) mod 60;
-	minutes = Timer div 3600;
-	Progress = clamp((Timer div 60) / 300, 0, 1);
+	millisecondes = (global.Timer mod 60)*(100 div 60);
+	secondes = (global.Timer div 60) mod 60;
+	minutes = global.Timer div 3600;
+	Progress = clamp((global.Timer div 60) / 300, 0, 1);
 	global.TimerGamePlay = true;
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Healthbar

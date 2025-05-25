@@ -20,9 +20,9 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 	/// @DnDVersion : 1
 	/// @DnDHash : 146F80AD
 	/// @DnDParent : 34762E58
-	/// @DnDArgument : "spriteind" "BIGGoHomeON"
-	/// @DnDSaveInfo : "spriteind" "BIGGoHomeON"
-	sprite_index = BIGGoHomeON;
+	/// @DnDArgument : "spriteind" "S_BIG_GoHomeON"
+	/// @DnDSaveInfo : "spriteind" "S_BIG_GoHomeON"
+	sprite_index = S_BIG_GoHomeON;
 	image_index = 0;
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Pressed
@@ -41,6 +41,24 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 		global.Chance = 3;
 		global.SujetNumber = SNumber;
 	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0F8F6925
+		/// @DnDInput : 2
+		/// @DnDParent : 1E1E71FD
+		/// @DnDArgument : "var" "global.last_CheckPoint_x"
+		/// @DnDArgument : "var_1" "global.last_CheckPoint_y"
+		global.last_CheckPoint_x = 0;
+		global.last_CheckPoint_y = 0;
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 37E969AE
+		/// @DnDParent : 1E1E71FD
+		/// @DnDArgument : "soundid" "Bouton"
+		/// @DnDSaveInfo : "soundid" "Bouton"
+		audio_play_sound(Bouton, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 193B5C98
@@ -56,7 +74,7 @@ else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 6C523070
 	/// @DnDParent : 7C7F744D
-	/// @DnDArgument : "spriteind" "BIGGoHomeOFF"
-	/// @DnDSaveInfo : "spriteind" "BIGGoHomeOFF"
-	sprite_index = BIGGoHomeOFF;
+	/// @DnDArgument : "spriteind" "S_BIG_GoHomeOFF"
+	/// @DnDSaveInfo : "spriteind" "S_BIG_GoHomeOFF"
+	sprite_index = S_BIG_GoHomeOFF;
 	image_index = 0;}

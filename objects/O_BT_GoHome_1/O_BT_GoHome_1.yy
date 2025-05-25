@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"GoHomeOFF",
-    "path":"sprites/GoHomeOFF/GoHomeOFF.yy",
+    "name":"S_GoHomeOFF",
+    "path":"sprites/S_GoHomeOFF/S_GoHomeOFF.yy",
   },
   "spriteMaskId":null,
   "visible":true,
