@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Zone_Check",
-    "path":"sprites/S_Zone_Check/S_Zone_Check.yy",
+    "name":"S_Zone_END_TUTO",
+    "path":"sprites/S_Zone_END_TUTO/S_Zone_END_TUTO.yy",
   },
   "spriteMaskId":null,
   "visible":false,

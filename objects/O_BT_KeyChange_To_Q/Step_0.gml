@@ -31,6 +31,14 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 		/// @DnDSaveInfo : "objectid" "O_BT_KeyChange_To_A"
 		instance_create_layer(0, 0, "Instances", O_BT_KeyChange_To_A);
 	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 2B804C75
+		/// @DnDParent : 0FC0AECA
+		/// @DnDArgument : "soundid" "Bouton"
+		/// @DnDSaveInfo : "soundid" "Bouton"
+		audio_play_sound(Bouton, 0, 0, 1.0, undefined, 1.0);
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 59F5ABEE
@@ -41,9 +49,9 @@ if(position_meeting(mouse_x, mouse_y, id) == true){	/// @DnDAction : YoYo Game
 	/// @DnDVersion : 1
 	/// @DnDHash : 26FE6760
 	/// @DnDParent : 26F95D9E
-	/// @DnDArgument : "spriteind" "KEY_Q_ON"
-	/// @DnDSaveInfo : "spriteind" "KEY_Q_ON"
-	sprite_index = KEY_Q_ON;
+	/// @DnDArgument : "spriteind" "S_KEY_Q_ON"
+	/// @DnDSaveInfo : "spriteind" "S_KEY_Q_ON"
+	sprite_index = S_KEY_Q_ON;
 	image_index = 0;}
 
 /// @DnDAction : YoYo Games.Common.Else
@@ -53,7 +61,7 @@ else{	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 00ED56ED
 	/// @DnDParent : 095B319C
-	/// @DnDArgument : "spriteind" "KEY_Q_OFF"
-	/// @DnDSaveInfo : "spriteind" "KEY_Q_OFF"
-	sprite_index = KEY_Q_OFF;
+	/// @DnDArgument : "spriteind" "S_KEY_Q_OFF"
+	/// @DnDSaveInfo : "spriteind" "S_KEY_Q_OFF"
+	sprite_index = S_KEY_Q_OFF;
 	image_index = 0;}

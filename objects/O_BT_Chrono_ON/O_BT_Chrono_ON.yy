@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ON_NOTSELECTED",
-    "path":"sprites/ON_NOTSELECTED/ON_NOTSELECTED.yy",
+    "name":"S_ON_NOTSELECTED",
+    "path":"sprites/S_ON_NOTSELECTED/S_ON_NOTSELECTED.yy",
   },
   "spriteMaskId":null,
   "visible":true,

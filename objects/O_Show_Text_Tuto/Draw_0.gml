@@ -41,8 +41,8 @@ draw_set_font(F_Regular);
 /// @DnDArgument : "y" "2320"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""Appuyez sur Q & D pour vous deplacer ""
-draw_text_transformed(64, 2320, string("Appuyez sur Q & D pour vous deplacer ") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Appuyez sur Q et D pour vous déplacer.""
+draw_text_transformed(64, 2320, string("Appuyez sur Q et D pour vous déplacer.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -51,8 +51,8 @@ draw_text_transformed(64, 2320, string("Appuyez sur Q & D pour vous deplacer ") 
 /// @DnDArgument : "y" "2340"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""Si vous jouez en QWERTY :""
-draw_text_transformed(64, 2340, string("Si vous jouez en QWERTY :") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""En clavier QWERTY, remplacez Q par A dans les paramètres.""
+draw_text_transformed(64, 2340, string("En clavier QWERTY, remplacez Q par A dans les paramètres.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -61,8 +61,8 @@ draw_text_transformed(64, 2340, string("Si vous jouez en QWERTY :") + "", Regula
 /// @DnDArgument : "y" "2360"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""Faites ECHAP puis changer Q en A, puis Puis revenez""
-draw_text_transformed(64, 2360, string("Faites ECHAP puis changer Q en A, puis Puis revenez") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Avec ECHAP""
+draw_text_transformed(64, 2360, string("Avec ECHAP") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
@@ -95,8 +95,8 @@ draw_set_font(F_Regular);
 /// @DnDArgument : "y" "2220"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""si la queu du chien est :""
-draw_text_transformed(574, 2220, string("si la queu du chien est :") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""La position de la queue détermine la hauteur du saut.""
+draw_text_transformed(574, 2220, string("La position de la queue détermine la hauteur du saut.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -105,28 +105,8 @@ draw_text_transformed(574, 2220, string("si la queu du chien est :") + "", Regul
 /// @DnDArgument : "y" "2250"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""vers le haut : votre saut seras a son MAX""
-draw_text_transformed(574, 2250, string("vers le haut : votre saut seras a son MAX") + "", Regular_Scale, Regular_Scale, 0);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
-/// @DnDVersion : 1
-/// @DnDHash : 5728F820
-/// @DnDArgument : "x" "574"
-/// @DnDArgument : "y" "2280"
-/// @DnDArgument : "xscale" "Regular_Scale"
-/// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""vers le milieu : votre saut seras Fort""
-draw_text_transformed(574, 2280, string("vers le milieu : votre saut seras Fort") + "", Regular_Scale, Regular_Scale, 0);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
-/// @DnDVersion : 1
-/// @DnDHash : 637EB24E
-/// @DnDArgument : "x" "574"
-/// @DnDArgument : "y" "2310"
-/// @DnDArgument : "xscale" "Regular_Scale"
-/// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""vers le bas : votre saut seras Bas""
-draw_text_transformed(574, 2310, string("vers le bas : votre saut seras Bas") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Plus elle est haute, plus vous sautez loin.""
+draw_text_transformed(574, 2250, string("Plus elle est haute, plus vous sautez loin.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
@@ -159,8 +139,8 @@ draw_set_font(F_Regular);
 /// @DnDArgument : "y" "1760"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""Cette OS est la cle vers la parti suivante""
-draw_text_transformed(1600, 1760, string("Cette OS est la cle vers la parti suivante") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Prenez l’os pour ouvrir la prochaine porte.""
+draw_text_transformed(1600, 1760, string("Prenez l’os pour ouvrir la prochaine porte.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -169,8 +149,8 @@ draw_text_transformed(1600, 1760, string("Cette OS est la cle vers la parti suiv
 /// @DnDArgument : "y" "1790"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""de ce niveau.""
-draw_text_transformed(1600, 1790, string("de ce niveau.") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Il excite le chien et fait bouger sa queue plus vite.""
+draw_text_transformed(1600, 1790, string("Il excite le chien et fait bouger sa queue plus vite.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -179,28 +159,8 @@ draw_text_transformed(1600, 1790, string("de ce niveau.") + "", Regular_Scale, R
 /// @DnDArgument : "y" "1820"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""cependant, quand vous l aurez recuperer""
-draw_text_transformed(1600, 1820, string("cependant, quand vous l aurez recuperer") + "", Regular_Scale, Regular_Scale, 0);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
-/// @DnDVersion : 1
-/// @DnDHash : 1BB4EE38
-/// @DnDArgument : "x" "1600"
-/// @DnDArgument : "y" "1850"
-/// @DnDArgument : "xscale" "Regular_Scale"
-/// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""votre chien balanceras sa queu plus vite""
-draw_text_transformed(1600, 1850, string("votre chien balanceras sa queu plus vite") + "", Regular_Scale, Regular_Scale, 0);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
-/// @DnDVersion : 1
-/// @DnDHash : 0BBEA762
-/// @DnDArgument : "x" "1600"
-/// @DnDArgument : "y" "1880"
-/// @DnDArgument : "xscale" "Regular_Scale"
-/// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""jusqu a ce que vous deposiez l os a la camera""
-draw_text_transformed(1600, 1880, string("jusqu a ce que vous deposiez l os a la camera") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Posez-le devant la caméra pour progresser.""
+draw_text_transformed(1600, 1820, string("Posez-le devant la caméra pour progresser.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
@@ -233,8 +193,8 @@ draw_set_font(F_Regular);
 /// @DnDArgument : "y" "1820"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""lorsqu elle sont recuperer, elle vont temporairement""
-draw_text_transformed(2560, 1820, string("lorsqu elle sont recuperer, elle vont temporairement") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Les croquettes excitent le chien.""
+draw_text_transformed(2560, 1820, string("Les croquettes excitent le chien.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -243,8 +203,18 @@ draw_text_transformed(2560, 1820, string("lorsqu elle sont recuperer, elle vont 
 /// @DnDArgument : "y" "1850"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""excite le chien (8 sec), elle sont cumulables""
-draw_text_transformed(2560, 1850, string("excite le chien (8 sec), elle sont cumulables") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Plus vous en mangez, plus sa queue bouge vite.""
+draw_text_transformed(2560, 1850, string("Plus vous en mangez, plus sa queue bouge vite.") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 24F74BDC
+/// @DnDArgument : "x" "2560"
+/// @DnDArgument : "y" "1880"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""L effet dure 8 secondes après la dernière croquette.""
+draw_text_transformed(2560, 1880, string("L effet dure 8 secondes après la dernière croquette.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
@@ -277,8 +247,8 @@ draw_set_font(F_Regular);
 /// @DnDArgument : "y" "1510"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""elle vont check si vous avez l os, si oui :""
-draw_text_transformed(2950, 1510, string("elle vont check si vous avez l os, si oui :") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Détectent si vous avez l os.""
+draw_text_transformed(2950, 1510, string("Détectent si vous avez l os.") + "", Regular_Scale, Regular_Scale, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -287,15 +257,225 @@ draw_text_transformed(2950, 1510, string("elle vont check si vous avez l os, si 
 /// @DnDArgument : "y" "1540"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""la porte s ouvriras, votre SpawnPoint seras actualiser""
-draw_text_transformed(2950, 1540, string("la porte s ouvriras, votre SpawnPoint seras actualiser") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Si oui, la porte s ouvre et votre spawnpoint est mis à jour.""
+draw_text_transformed(2950, 1540, string("Si oui, la porte s ouvre et votre spawnpoint est mis à jour.") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 4529ED4C
+/// @DnDArgument : "font" "F_Title"
+/// @DnDSaveInfo : "font" "F_Title"
+draw_set_font(F_Title);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 5EAB9A71
-/// @DnDArgument : "x" "2950"
-/// @DnDArgument : "y" "1570"
+/// @DnDHash : 01F411C0
+/// @DnDArgument : "x" "3550"
+/// @DnDArgument : "y" "2370"
+/// @DnDArgument : "xscale" "Title_Scale"
+/// @DnDArgument : "yscale" "Title_Scale"
+/// @DnDArgument : "caption" ""Scies""
+draw_text_transformed(3550, 2370, string("Scies") + "", Title_Scale, Title_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 3041B245
+/// @DnDArgument : "font" "F_Regular"
+/// @DnDSaveInfo : "font" "F_Regular"
+draw_set_font(F_Regular);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 71F30A39
+/// @DnDArgument : "x" "3670"
+/// @DnDArgument : "y" "2355"
 /// @DnDArgument : "xscale" "Regular_Scale"
 /// @DnDArgument : "yscale" "Regular_Scale"
-/// @DnDArgument : "caption" ""est vous pourrez continuer votre aventure""
-draw_text_transformed(2950, 1570, string("est vous pourrez continuer votre aventure") + "", Regular_Scale, Regular_Scale, 0);
+/// @DnDArgument : "caption" ""Fixes ou mobiles,""
+draw_text_transformed(3670, 2355, string("Fixes ou mobiles,") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 1B0BE7A3
+/// @DnDArgument : "x" "3670"
+/// @DnDArgument : "y" "2375"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""Un seul contact = mort immédiate.""
+draw_text_transformed(3670, 2375, string("Un seul contact = mort immédiate.") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 646704A5
+/// @DnDArgument : "font" "F_Title"
+/// @DnDSaveInfo : "font" "F_Title"
+draw_set_font(F_Title);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 783D7441
+/// @DnDArgument : "x" "860"
+/// @DnDArgument : "y" "1730"
+/// @DnDArgument : "xscale" "Title_Scale"
+/// @DnDArgument : "yscale" "Title_Scale"
+/// @DnDArgument : "caption" ""STAMINA""
+draw_text_transformed(860, 1730, string("STAMINA") + "", Title_Scale, Title_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 6E782A5F
+/// @DnDArgument : "font" "F_Regular"
+/// @DnDSaveInfo : "font" "F_Regular"
+draw_set_font(F_Regular);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 2F2D482D
+/// @DnDArgument : "x" "860"
+/// @DnDArgument : "y" "1760"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""Maintenez SHIFT pour courir.""
+draw_text_transformed(860, 1760, string("Maintenez SHIFT pour courir.") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 49770084
+/// @DnDArgument : "x" "860"
+/// @DnDArgument : "y" "1790"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""Permet d aller plus vite et de sauter plus loin.""
+draw_text_transformed(860, 1790, string("Permet d aller plus vite et de sauter plus loin.") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 249037D8
+/// @DnDArgument : "font" "F_Title"
+/// @DnDSaveInfo : "font" "F_Title"
+draw_set_font(F_Title);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 05B3D0F9
+/// @DnDArgument : "x" "3730"
+/// @DnDArgument : "y" "330"
+/// @DnDArgument : "xscale" "Title_Scale"
+/// @DnDArgument : "yscale" "Title_Scale"
+/// @DnDArgument : "caption" ""Lance-flammes""
+draw_text_transformed(3730, 330, string("Lance-flammes") + "", Title_Scale, Title_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 4A2DEFEF
+/// @DnDArgument : "font" "F_Regular"
+/// @DnDSaveInfo : "font" "F_Regular"
+draw_set_font(F_Regular);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 3814B755
+/// @DnDArgument : "x" "3730"
+/// @DnDArgument : "y" "360"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""Crachent du feu toutes les 4 secondes.""
+draw_text_transformed(3730, 360, string("Crachent du feu toutes les 4 secondes.") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 5785686F
+/// @DnDArgument : "x" "3730"
+/// @DnDArgument : "y" "390"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""toujours dans une seule direction.""
+draw_text_transformed(3730, 390, string("toujours dans une seule direction.") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 6B86F76E
+/// @DnDArgument : "font" "F_Title"
+/// @DnDSaveInfo : "font" "F_Title"
+draw_set_font(F_Title);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 60985A71
+/// @DnDArgument : "x" "4200"
+/// @DnDArgument : "y" "330"
+/// @DnDArgument : "xscale" "Title_Scale"
+/// @DnDArgument : "yscale" "Title_Scale"
+/// @DnDArgument : "caption" ""Mitrailleuses""
+draw_text_transformed(4200, 330, string("Mitrailleuses") + "", Title_Scale, Title_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 6FC47167
+/// @DnDArgument : "font" "F_Regular"
+/// @DnDSaveInfo : "font" "F_Regular"
+draw_set_font(F_Regular);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 5358F34F
+/// @DnDArgument : "x" "4200"
+/// @DnDArgument : "y" "360"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""Elles tirent en coup par coup""
+draw_text_transformed(4200, 360, string("Elles tirent en coup par coup") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 3E7FF67B
+/// @DnDArgument : "x" "4200"
+/// @DnDArgument : "y" "390"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""Réagissez vite, esquivez ou foncez avant qu il ne soit trop tard.""
+draw_text_transformed(4200, 390, string("Réagissez vite, esquivez ou foncez avant qu il ne soit trop tard.") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 47EF871D
+/// @DnDArgument : "font" "F_Title"
+/// @DnDSaveInfo : "font" "F_Title"
+draw_set_font(F_Title);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 3AE0C01F
+/// @DnDArgument : "x" "4060"
+/// @DnDArgument : "y" "1880"
+/// @DnDArgument : "xscale" "Title_Scale"
+/// @DnDArgument : "yscale" "Title_Scale"
+/// @DnDArgument : "caption" ""Murs mouvants""
+draw_text_transformed(4060, 1880, string("Murs mouvants") + "", Title_Scale, Title_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 3E732853
+/// @DnDArgument : "font" "F_Regular"
+/// @DnDSaveInfo : "font" "F_Regular"
+draw_set_font(F_Regular);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 3027C2C7
+/// @DnDArgument : "x" "4060"
+/// @DnDArgument : "y" "1910"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""Ils se déplacent horizontalement ou verticalement.""
+draw_text_transformed(4060, 1910, string("Ils se déplacent horizontalement ou verticalement.") + "", Regular_Scale, Regular_Scale, 0);
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 0211860D
+/// @DnDArgument : "x" "4060"
+/// @DnDArgument : "y" "1940"
+/// @DnDArgument : "xscale" "Regular_Scale"
+/// @DnDArgument : "yscale" "Regular_Scale"
+/// @DnDArgument : "caption" ""Ils peuvent vous écraser ou bloquer le passage.""
+draw_text_transformed(4060, 1940, string("Ils peuvent vous écraser ou bloquer le passage.") + "", Regular_Scale, Regular_Scale, 0);

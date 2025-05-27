@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 15B43DBF
+/// @DnDInput : 2
 /// @DnDArgument : "expr" "point_direction(x, y, O_Character_1.x ,O_Character_1.y)"
+/// @DnDArgument : "expr_1" "degtorad(point_direction(x, y, O_Character_1.x ,O_Character_1.y))"
 /// @DnDArgument : "var" "image_angle"
+/// @DnDArgument : "var_1" "RAD"
 image_angle = point_direction(x, y, O_Character_1.x ,O_Character_1.y);
+RAD = degtorad(point_direction(x, y, O_Character_1.x ,O_Character_1.y));
 
 /// @DnDAction : YoYo Games.Collisions.If_Collision_Shape
 /// @DnDVersion : 1.1
@@ -35,14 +39,25 @@ var l7E18BCAD_0 = collision_ellipse(x + -Range, y + -Range, x + Range, y + Range
 	/// @DnDArgument : "value" "true"
 	if(Fire == true){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
-		/// @DnDHash : 4DFE6C72
+		/// @DnDHash : 5343D8D0
 		/// @DnDParent : 32211592
-		/// @DnDArgument : "xpos_relative" "1"
-		/// @DnDArgument : "ypos_relative" "1"
+		/// @DnDArgument : "xpos" "x+cos(RAD)*120"
+		/// @DnDArgument : "ypos" "y-sin(RAD)*120"
 		/// @DnDArgument : "objectid" "O_Bullet"
 		/// @DnDArgument : "layer" ""Instances_Traps""
 		/// @DnDSaveInfo : "objectid" "O_Bullet"
-		instance_create_layer(x + 0, y + 0, "Instances_Traps", O_Bullet);
+		instance_create_layer(x+cos(RAD)*120, y-sin(RAD)*120, "Instances_Traps", O_Bullet);
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 4DFE6C72
+		/// @DnDParent : 32211592
+		/// @DnDArgument : "xpos" "x+cos(RAD)*120"
+		/// @DnDArgument : "ypos" "y-sin(RAD)*120"
+		/// @DnDArgument : "objectid" "O_Flash"
+		/// @DnDArgument : "layer" ""Instances_Traps""
+		/// @DnDSaveInfo : "objectid" "O_Flash"
+		instance_create_layer(x+cos(RAD)*120, y-sin(RAD)*120, "Instances_Traps", O_Flash);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -56,8 +71,8 @@ var l7E18BCAD_0 = collision_ellipse(x + -Range, y + -Range, x + Range, y + Range
 		/// @DnDVersion : 1
 		/// @DnDHash : 11DAD11D
 		/// @DnDParent : 32211592
-		/// @DnDArgument : "steps" "WAITBullet"
-		alarm_set(0, WAITBullet);}}
+		/// @DnDArgument : "steps" "WAITBullet*60"
+		alarm_set(0, WAITBullet*60);}}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1

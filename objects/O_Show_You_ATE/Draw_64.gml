@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Drawing.Set_Font
+/// @DnDVersion : 1
+/// @DnDHash : 575722B4
+/// @DnDArgument : "font" "F_Title"
+/// @DnDSaveInfo : "font" "F_Title"
+draw_set_font(F_Title);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
 /// @DnDHash : 520310D9

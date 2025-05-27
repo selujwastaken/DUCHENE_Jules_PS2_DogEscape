@@ -22,10 +22,3 @@ draw_set_font(F_Regular);
 /// @DnDArgument : "yscale" "2"
 /// @DnDArgument : "caption" ""Press > Space < to continue""
 draw_text_transformed(960, 950, string("Press > Space < to continue") + "", 2, 2, 0);
-
-/// @DnDAction : YoYo Games.Drawing.Set_Font
-/// @DnDVersion : 1
-/// @DnDHash : 19DCC586
-/// @DnDArgument : "font" "F_Title"
-/// @DnDSaveInfo : "font" "F_Title"
-draw_set_font(F_Title);

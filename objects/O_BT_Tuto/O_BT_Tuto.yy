@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"TutoOFF",
-    "path":"sprites/TutoOFF/TutoOFF.yy",
+    "name":"S_TutoOFF",
+    "path":"sprites/S_TutoOFF/S_TutoOFF.yy",
   },
   "spriteMaskId":null,
   "visible":true,

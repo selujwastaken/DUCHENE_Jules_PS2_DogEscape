@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_E_WALL_2",
-    "path":"sprites/S_E_WALL_2/S_E_WALL_2.yy",
+    "name":"S_WALL",
+    "path":"sprites/S_WALL/S_WALL.yy",
   },
   "spriteMaskId":null,
   "visible":true,
