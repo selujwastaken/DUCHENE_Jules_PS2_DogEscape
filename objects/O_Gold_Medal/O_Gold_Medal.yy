@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Gold_medal",
-    "path":"sprites/Gold_medal/Gold_medal.yy",
+    "name":"S_Gold_medal",
+    "path":"sprites/S_Gold_medal/S_Gold_medal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

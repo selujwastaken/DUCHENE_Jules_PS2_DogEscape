@@ -20,8 +20,8 @@ draw_set_font(F_Regular);
 /// @DnDArgument : "y" "540-64*4"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""Aucun chien a ete maltraite durant ces experiences""
-draw_text_transformed(960, 540-64*4, string("Aucun chien a ete maltraite durant ces experiences") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Aucun chien n a été maltraité durant ces expériences.""
+draw_text_transformed(960, 540-64*4, string("Aucun chien n a été maltraité durant ces expériences.") + "", 2, 2, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
@@ -54,8 +54,8 @@ draw_set_font(F_Regular);
 /// @DnDArgument : "y" "540+64"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""Ame sensibles s'abstenir.""
-draw_text_transformed(960, 540+64, string("Ame sensibles s'abstenir.") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Âmes sensibles, s abstenir.""
+draw_text_transformed(960, 540+64, string("Âmes sensibles, s abstenir.") + "", 2, 2, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -64,5 +64,5 @@ draw_text_transformed(960, 540+64, string("Ame sensibles s'abstenir.") + "", 2, 
 /// @DnDArgument : "y" "540+64*2"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""Bien que ce jeu soit cartoonesque, il peut etre choquant.""
-draw_text_transformed(960, 540+64*2, string("Bien que ce jeu soit cartoonesque, il peut etre choquant.") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Le style est léger, le fond, un peu moins.""
+draw_text_transformed(960, 540+64*2, string("Le style est léger, le fond, un peu moins.") + "", 2, 2, 0);

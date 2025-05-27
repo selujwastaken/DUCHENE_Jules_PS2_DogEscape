@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ExitOFF",
-    "path":"sprites/ExitOFF/ExitOFF.yy",
+    "name":"S_ExitOFF",
+    "path":"sprites/S_ExitOFF/S_ExitOFF.yy",
   },
   "spriteMaskId":null,
   "visible":true,
