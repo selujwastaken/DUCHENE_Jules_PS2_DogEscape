@@ -378,9 +378,9 @@ if(OSFound == true){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5E914F2F
 	/// @DnDParent : 0799C397
-	/// @DnDArgument : "expr" "0.08"
+	/// @DnDArgument : "expr" "0.06"
 	/// @DnDArgument : "var" "Min_FrameSpeed"
-	Min_FrameSpeed = 0.08;}
+	Min_FrameSpeed = 0.06;}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
@@ -389,9 +389,9 @@ else{	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5B165008
 	/// @DnDParent : 75397A55
-	/// @DnDArgument : "expr" "0.04"
+	/// @DnDArgument : "expr" "0.03"
 	/// @DnDArgument : "var" "Min_FrameSpeed"
-	Min_FrameSpeed = 0.04;}
+	Min_FrameSpeed = 0.03;}
 
 /// @DnDAction : YoYo Games.Instances.Inherit_Event
 /// @DnDVersion : 1

@@ -1,13 +1,5 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 0905F553
-/// @DnDArgument : "alpha" "0.5"
-/// @DnDArgument : "sprite" "Illustration_sans_titre"
-/// @DnDSaveInfo : "sprite" "Illustration_sans_titre"
-draw_sprite_ext(Illustration_sans_titre, 0, 0, 0, 1, 1, 0, $FFFFFF & $ffffff, 0.5);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
-/// @DnDVersion : 1
 /// @DnDHash : 51448340
 /// @DnDArgument : "xscale" "0.8"
 /// @DnDArgument : "yscale" "0.8"

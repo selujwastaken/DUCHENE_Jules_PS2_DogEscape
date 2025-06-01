@@ -60,7 +60,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.0.190",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"PS2",
   "resources":[
@@ -149,7 +149,6 @@
     {"id":{"name":"BG_yellow","path":"sprites/BG_yellow/BG_yellow.yy",},},
     {"id":{"name":"Exitanimation","path":"sprites/Exitanimation/Exitanimation.yy",},},
     {"id":{"name":"Gun","path":"sprites/Gun/Gun.yy",},},
-    {"id":{"name":"Illustration_sans_titre","path":"sprites/Illustration_sans_titre/Illustration_sans_titre.yy",},},
     {"id":{"name":"MAP_ANIMATION_ASSET_2","path":"sprites/MAP_ANIMATION_ASSET_2/MAP_ANIMATION_ASSET_2.yy",},},
     {"id":{"name":"S_1chance","path":"sprites/S_1chance/S_1chance.yy",},},
     {"id":{"name":"S_2chances","path":"sprites/S_2chances/S_2chances.yy",},},
