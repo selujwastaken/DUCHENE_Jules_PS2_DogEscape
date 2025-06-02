@@ -20,8 +20,8 @@ draw_set_font(F_Regular);
 /// @DnDArgument : "y" "540-64*6"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""Dans le futur, les chiens sont élevés et testés dans des laboratoires dirigés par une société""
-draw_text_transformed(960, 540-64*6, string("Dans le futur, les chiens sont élevés et testés dans des laboratoires dirigés par une société") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Dans un futur dirigé par une société obsédée par la performance, les chiens sont élevés en laboratoire.""
+draw_text_transformed(960, 540-64*6, string("Dans un futur dirigé par une société obsédée par la performance, les chiens sont élevés en laboratoire.") + "", 2, 2, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -30,8 +30,8 @@ draw_text_transformed(960, 540-64*6, string("Dans le futur, les chiens sont éle
 /// @DnDArgument : "y" "540-64*5"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""humaine obsédée par la performance. Seuls les chiens jugés compétents, intelligents et""
-draw_text_transformed(960, 540-64*5, string("humaine obsédée par la performance. Seuls les chiens jugés compétents, intelligents et") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Ceux qui réussissent les tests obtiennent une vie confortable, confiés à des familles riches.""
+draw_text_transformed(960, 540-64*5, string("Ceux qui réussissent les tests obtiennent une vie confortable, confiés à des familles riches.") + "", 2, 2, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -40,8 +40,8 @@ draw_text_transformed(960, 540-64*5, string("humaine obsédée par la performanc
 /// @DnDArgument : "y" "540-64*4"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""utiles sont acceptés dans la société. Les autres sont gardés ou éliminés.""
-draw_text_transformed(960, 540-64*4, string("utiles sont acceptés dans la société. Les autres sont gardés ou éliminés.") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Les échecs fatals laissent leurs restes dans les salles d épreuve.""
+draw_text_transformed(960, 540-64*4, string("Les échecs fatals laissent leurs restes dans les salles d épreuve.") + "", 2, 2, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -50,8 +50,8 @@ draw_text_transformed(960, 540-64*4, string("utiles sont acceptés dans la soci�
 /// @DnDArgument : "y" "540-64*2"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""Vous incarnez un chien de laboratoire, entre liberté et enfermement.""
-draw_text_transformed(960, 540-64*2, string("Vous incarnez un chien de laboratoire, entre liberté et enfermement.") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Les survivants jugés trop faibles sont donnés aux plus pauvres.""
+draw_text_transformed(960, 540-64*2, string("Les survivants jugés trop faibles sont donnés aux plus pauvres.") + "", 2, 2, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -60,8 +60,8 @@ draw_text_transformed(960, 540-64*2, string("Vous incarnez un chien de laboratoi
 /// @DnDArgument : "y" "540-64*1"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""vous devez prouver votre valeur. En cas d échec, vous resterez enfermé à vie.""
-draw_text_transformed(960, 540-64*1, string("vous devez prouver votre valeur. En cas d échec, vous resterez enfermé à vie.") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Tu es l un d eux, né pour être jugé.""
+draw_text_transformed(960, 540-64*1, string("Tu es l un d eux, né pour être jugé.") + "", 2, 2, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
@@ -70,8 +70,8 @@ draw_text_transformed(960, 540-64*1, string("vous devez prouver votre valeur. En
 /// @DnDArgument : "y" "540"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
-/// @DnDArgument : "caption" ""En cas de réussite, vous serez remis à une famille riche et exigeante.""
-draw_text_transformed(960, 540, string("En cas de réussite, vous serez remis à une famille riche et exigeante.") + "", 2, 2, 0);
+/// @DnDArgument : "caption" ""Ici, seule l excellence mène à la liberté.""
+draw_text_transformed(960, 540, string("Ici, seule l excellence mène à la liberté.") + "", 2, 2, 0);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
